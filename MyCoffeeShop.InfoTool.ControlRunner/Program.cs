@@ -6,7 +6,7 @@ namespace MyCoffeeShop.InfoTool.ControlRunner
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to My Coffee Shop Info Tool!");
         }
     }
 }
