@@ -9,8 +9,10 @@ namespace MyCoffeeShop.InfoTool.ControlRunner
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to My Coffee Shop Info Tool!");
+            Console.WriteLine("\n******************\n");
+            Console.WriteLine("Welcome to My Coffee Shop Info Tool!");            
             Console.WriteLine("Type help to list available commands, write quit to exit application.");
+            Console.WriteLine("\n******************\n");
             ICoffeeShopDataProvider provider = new DefaultCoffeeShopDataProvider();
 
             string inputLine = string.Empty;
