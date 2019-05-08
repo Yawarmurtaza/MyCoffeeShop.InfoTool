@@ -9,7 +9,8 @@ namespace MyCoffeeShop.InfoTool.DataAccess
         {
             yield return new CoffeeShop { BeansStockKg = 1000, Location = "Peterborough" };
             yield return new CoffeeShop { BeansStockKg = 2000, Location = "Cambridge" };
-            yield return new CoffeeShop { BeansStockKg = 3000, Location = "London" };
+            yield return new CoffeeShop { BeansStockKg = 3000, Location = "Reading" };
+            yield return new CoffeeShop { BeansStockKg = 4000, Location = "London" };
         }
     }
 }
