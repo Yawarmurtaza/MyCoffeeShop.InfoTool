@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace MyCoffeeShop.InfoTool.DataAccess
 {
     /// <summary>
-    /// Provides the coffee shop's data.
+    /// Provides the coffee shop's data. It supports all type of data for a coffee shop.
     /// </summary>
     public interface ICoffeeShopDataProvider
     {
