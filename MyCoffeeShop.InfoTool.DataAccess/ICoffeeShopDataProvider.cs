@@ -10,7 +10,7 @@ namespace MyCoffeeShop.InfoTool.DataAccess
     public interface ICoffeeShopDataProvider
     {
         /// <summary>
-        /// Gets the coffee shops.
+        /// Gets the coffee shops with the data.
         /// </summary>
         /// <returns>Coffee shop collections.</returns>
         IEnumerable<CoffeeShop> GetCoffeeShops();
