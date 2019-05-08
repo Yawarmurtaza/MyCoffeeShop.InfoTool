@@ -6,7 +6,6 @@ namespace MyCoffeeShop.InfoTool.Model
     {
         public string Location { get; set; }
         public int BeansStockKg { get; set; }
-
         public int PaperCupsInStock { get; set; }
     }
 }
