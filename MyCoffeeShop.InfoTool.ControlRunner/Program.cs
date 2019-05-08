@@ -10,14 +10,14 @@ namespace MyCoffeeShop.InfoTool.ControlRunner
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to My Coffee Shop Info Tool!");
-            Console.WriteLine("Type help to list available commands");
+            Console.WriteLine("Type help to list available commands, write quit to exit application.");
             ICoffeeShopDataProvider provider = new DefaultCoffeeShopDataProvider();
 
-            while (true)
+            string inputLine = string.Empty;
+            while (!string.Equals(inputLine, "quit", StringComparison.OrdinalIgnoreCase))
             {
-                string inputLine = Console.ReadLine();
+                inputLine = Console.ReadLine();
                 IEnumerable<CoffeeShop> coffeeShopData = provider.GetCoffeeShops();
-
                 if (string.Equals("help", inputLine, StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("> Available coffee shop commands");
