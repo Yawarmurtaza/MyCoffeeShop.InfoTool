@@ -18,6 +18,7 @@ namespace MyCoffeeShop.InfoTool.ControlRunner
             {
                 inputLine = Console.ReadLine();
                 IEnumerable<CoffeeShop> coffeeShopData = provider.GetCoffeeShops();
+
                 if (string.Equals("help", inputLine, StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine("> Available coffee shop commands");
