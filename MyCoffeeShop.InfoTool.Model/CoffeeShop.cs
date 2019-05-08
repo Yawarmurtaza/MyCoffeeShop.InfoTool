@@ -21,5 +21,7 @@ namespace MyCoffeeShop.InfoTool.Model
         /// Gets or sets the number of paper cups in stock.
         /// </summary>
         public int PaperCupsInStock { get; set; }
+
+        public CoffeeShopRating Rating { get; set; }
     }
 }
